@@ -1,0 +1,32 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    // WAP for finding sum of two numbers using the prompt and display sum of it.
+        let a = prompt("Enter First Number");
+        let b = prompt("Enter Second Number");
+        sum = a+b;  //1020
+         document.writeln("Sum " + sum);
+
+        // the output of sum is 1020 which is wrong 
+        // the return type of the prompt method is String except it work correct for the '*' operation
+        // therefore we have to parse these inputs
+
+        let c = parseInt(prompt("Enter First Number"));
+        let d = parseInt(prompt("Enter Second Number"));
+        sum = c+d;  //1020
+         document.writeln("Sum " + sum);
+
+       
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
